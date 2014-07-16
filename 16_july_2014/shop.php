@@ -5,7 +5,7 @@ class Shop
     private $code;
     private $name;
     private $productList;
-    private $product;
+   // private $product;
 
     function __construct($code, $name)
     {
@@ -15,7 +15,7 @@ class Shop
     }
 
 
-    public function setProduct($product)
+    /*public function setProduct($product)
     {
         $this->product = $product;
     }
@@ -25,7 +25,7 @@ class Shop
     {
         return $this->product;
     }
-
+*/
 
     public function getCode()
     {

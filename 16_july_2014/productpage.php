@@ -25,7 +25,7 @@
         $shop = $_SESSION['shop'];
 
         $_SESSION['product'] = $product;
-        $shop->setProduct($product);
+        //$shop->setProduct($product);
         echo $shop -> addProduct($product);
 
         $_SESSION['shop'] = $shop;
